@@ -1,0 +1,8 @@
+NUMBER = int(input())
+HOURS = float(input())
+AMOUNT = float(input())
+
+SALARY = HOURS * AMOUNT
+
+print ('NUMBER = %i' %NUMBER)
+print ('SALARY = U$ %.2f' %SALARY)

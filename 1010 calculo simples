@@ -1,0 +1,14 @@
+data1 = input()
+partes1 = data1.split()
+C1 = int(partes1[0])
+Q1 = int(partes1[1])
+P1 = float(partes1[2])
+data2 = input()
+partes2 = data2.split()
+C2 = int(partes2[0])
+Q2 = int(partes2[1])
+P2 = float(partes2[2])
+
+T = Q1 * P1 + Q2 * P2
+
+print ('VALOR A PAGAR: R$ %.2f' %T)

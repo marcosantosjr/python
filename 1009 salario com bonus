@@ -1,7 +1,0 @@
-NAME = str(input())
-SALARY = float(input())
-SOLD = float(input())
-
-TOTAL = SOLD * 0.15 + SALARY
-
-print ('TOTAL = R$ %.2f' %TOTAL)

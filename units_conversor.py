@@ -2,58 +2,6 @@ print("Unit conversor")
 
 print()
 
-n = int(input("Choose the desired conversion: \n"
-              "1. Temperature\n"
-              "2. Distance\n"
-              "3. Weight\n"
-              "4. Volume\n"
-              "5. Velocity\n"
-              "Enter: "))
-
-if n == 1:
-    m = int(input("Now choose: \n"
-                  "1. Celsius (C) ⟷ Fahrenheit (F)\n"
-                  "2. Celsius (C) ⟷ Kelvin (K)\n"
-                  "3. Fahrenheit (F) ⟷  Celsius (C)\n"
-                  "4. Kelvin (K) ⟷ Celsius (C)\n"
-                  "Enter: "))
-
-elif n == 2:
-    m = int(input("Now choose: \n"
-                  "1. Kilometers (km) ⟷ Miles (mi)\n"
-                  "2. Meters (m) ⟷ Feets (ft)\n"
-                  "3. Centimeters (cm) ⟷ Inches (in)\n"
-                  "4. Miles (mi) ⟷  Kilometers (km)\n"
-                  "5. Feet (ft) ⟷ Meters (m)\n"
-                  "6. Inches (in) ⟷ Centimeters (cm)\n"
-                  "Enter: "))
-
-elif n == 3:
-    m = int(input("Now choose: \n"
-                  "1. Kilograms (kg) ⟷ Libres (lb)\n"
-                  "2. Grams (g) ⟷ Ounces (oz)\n"
-                  "3. Libres (lb) ⟷ Kilograms (kg)\n"
-                  "4. Ounces (oz) ⟷ Grams (g)\n"
-                  "Enter: "))
-
-elif n == 4:
-    m = int(input("Now choose: \n"
-                  "1. Litters (L) ⟷ Gallons (gal)\n"
-                  "2. Milliliters (mL) ⟷ Soup Spoons\n"
-                  "3. Milliliters (mL) ⟷ Teaspoons\n"
-                  "4. Gallons (gal) ⟷ Litters (L)\n"
-                  "5. Soup Spoons ⟷ Milliliters (mL)\n"
-                  "6. Teaspoons ⟷ Milliliters (mL)\n"
-                  "Enter: "))
-
-elif n == 5:
-    m = int(input("Now choose: \n"
-                  "1. Kilometers per Hour (km/h) ⟷ Miles per Hour (mph)\n"
-                  "2. Meter per Second (m/s) ⟷ Kilometers per Hour (km/h)\n"
-                  "3. Miles per Hour (mph) ⟷  Kilometers per Hour (km/h)\n"
-                  "4. Kilometers per Hour (km/h) ⟷ Meter per Second (m/s)\n"
-                  "Enter: "))
-
 def temp(opt):
 
     if opt == 1:
@@ -209,17 +157,60 @@ def vel(opt):
         print("Kilometers per Hour (km/h) to Meter per Second (m/s)")
         print(f"The final value is {y} Meter per Second (m/s)")
 
+n = int(input("Choose the desired conversion: \n"
+              "1. Temperature\n"
+              "2. Distance\n"
+              "3. Weight\n"
+              "4. Volume\n"
+              "5. Velocity\n"
+              "Enter: "))
+
 if n == 1:
+    m = int(input("Now choose: \n"
+                  "1. Celsius (C) ⟷ Fahrenheit (F)\n"
+                  "2. Celsius (C) ⟷ Kelvin (K)\n"
+                  "3. Fahrenheit (F) ⟷  Celsius (C)\n"
+                  "4. Kelvin (K) ⟷ Celsius (C)\n"
+                  "Enter: "))
     temp(m)
 
 elif n == 2:
+    m = int(input("Now choose: \n"
+                  "1. Kilometers (km) ⟷ Miles (mi)\n"
+                  "2. Meters (m) ⟷ Feets (ft)\n"
+                  "3. Centimeters (cm) ⟷ Inches (in)\n"
+                  "4. Miles (mi) ⟷  Kilometers (km)\n"
+                  "5. Feet (ft) ⟷ Meters (m)\n"
+                  "6. Inches (in) ⟷ Centimeters (cm)\n"
+                  "Enter: "))
     dist(m)
 
 elif n == 3:
+    m = int(input("Now choose: \n"
+                  "1. Kilograms (kg) ⟷ Libres (lb)\n"
+                  "2. Grams (g) ⟷ Ounces (oz)\n"
+                  "3. Libres (lb) ⟷ Kilograms (kg)\n"
+                  "4. Ounces (oz) ⟷ Grams (g)\n"
+                  "Enter: "))
     weig(m)
 
 elif n == 4:
+    m = int(input("Now choose: \n"
+                  "1. Litters (L) ⟷ Gallons (gal)\n"
+                  "2. Milliliters (mL) ⟷ Soup Spoons\n"
+                  "3. Milliliters (mL) ⟷ Teaspoons\n"
+                  "4. Gallons (gal) ⟷ Litters (L)\n"
+                  "5. Soup Spoons ⟷ Milliliters (mL)\n"
+                  "6. Teaspoons ⟷ Milliliters (mL)\n"
+                  "Enter: "))
     vol(m)
 
 elif n == 5:
+    m = int(input("Now choose: \n"
+                  "1. Kilometers per Hour (km/h) ⟷ Miles per Hour (mph)\n"
+                  "2. Meter per Second (m/s) ⟷ Kilometers per Hour (km/h)\n"
+                  "3. Miles per Hour (mph) ⟷  Kilometers per Hour (km/h)\n"
+                  "4. Kilometers per Hour (km/h) ⟷ Meter per Second (m/s)\n"
+                  "Enter: "))
     vel(m)
+

@@ -1,3 +1,5 @@
+#código para substituir uma palavra por outra
+
 def replace_word():
     str = "Hi guys, this is world replacement"
     word_to_replace = input("Enter the word to replace: ")

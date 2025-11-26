@@ -1,3 +1,5 @@
+#jogo do pedra, papel e tesoura contra o pc
+
 import random
 
 print("-Rock, Paper or Scissors game-")

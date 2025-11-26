@@ -1,3 +1,5 @@
+#envia emails automaticos
+
 import smtplib
 
 email = input("SENDER EMAIL: ")
